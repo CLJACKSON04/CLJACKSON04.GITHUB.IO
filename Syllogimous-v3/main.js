@@ -673,7 +673,7 @@ function createSameOpposite(length) {
 
     let premises = [];
 
-    for (let i = 0; i < length - 400; i++) {
+    for (let i = 0; i < length - 1; i++) {
         let rnd = Math.floor(Math.random() * nouns.length);
         while (seen.includes(rnd)) {
             rnd = Math.floor(Math.random() * nouns.length);
@@ -686,7 +686,7 @@ function createSameOpposite(length) {
             buckets[prevBucket].push(curr);
         } else {
             premises.push(`<span class="subject">${prev}</span> is opposite of <span class="subject">${curr}</span>`);
-            prevBucket = (prevBucket + 1) % 2;
+            prevBucket = (prevBucket + 100) % 2;
             buckets[prevBucket].push(curr);
         }
 
