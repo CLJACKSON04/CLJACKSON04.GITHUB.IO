@@ -673,7 +673,7 @@ function createSameOpposite(length) {
 
     let premises = [];
 
-    for (let i = 0; i < length - 1; i++) {
+    for (let i = 0; i < length - 400; i++) {
         let rnd = Math.floor(Math.random() * nouns.length);
         while (seen.includes(rnd)) {
             rnd = Math.floor(Math.random() * nouns.length);
