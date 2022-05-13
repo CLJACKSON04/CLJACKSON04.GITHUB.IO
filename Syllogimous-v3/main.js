@@ -686,7 +686,7 @@ function createSameOpposite(length) {
             buckets[prevBucket].push(curr);
         } else {
             premises.push(`<span class="subject">${prev}</span> is opposite of <span class="subject">${curr}</span>`);
-            prevBucket = (prevBucket + 100) % 2;
+            prevBucket = (prevBucket + 1) % 2;
             buckets[prevBucket].push(curr);
         }
 
