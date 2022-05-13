@@ -1005,8 +1005,8 @@ const timerInput = document.querySelector("#timer-input");
 const timerToggle = document.querySelector("#timer-toggle");
 const timerBar = document.querySelector(".timer__bar");
 let timerToggled = false;
-let timerTime = 10;
-let timerCount = 10;
+let timerTime = 20;
+let timerCount = 20;
 let timerInstance;
 let timerRunning = false;
 
