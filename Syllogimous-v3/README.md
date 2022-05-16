@@ -2,4 +2,4 @@
 
 Definitive Relational Game
 
-[Try it](https://4skinskywalker.github.io/Syllogimous-v3/)
+[Try it](https://CLJACKSON04.github.io/Syllogimous-v3/)
